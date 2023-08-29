@@ -4,7 +4,7 @@ footer {
 }
 /* Interface da lista */
 h1,ul {
-    font-family: CURSIVE;
+    font-size: larger;
     color: rgb(147, 203, 107);
 }
 
