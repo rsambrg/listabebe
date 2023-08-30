@@ -7,7 +7,6 @@ const itemList = document.getElementById("itemList");
       }
     });
 
-const endereco = document.getElementById("endereco");
 const sobre = document.getElementById("sobre");
 const perguntas = document.getElementById("perguntas");
 const bolao = document.getElementById("bolao");
@@ -15,9 +14,6 @@ const recebidos = document.getElementById("recebidos");
 const conteudo = document.getElementById("conteudo");
 
 
-endereco.addEventListener("click",function() {
-    conteudo.innerHTML = "<big><big><big><h2>Endereço</h2></big><p> Rua Antonio Zeferino de Paula, 2341, apartamento 101<br>Bairro Segismundo Pereira, Uberlandia, MG</p>"
-});
 
 sobre.addEventListener("click", function(){
     conteudo.innerHTML = "<h2> Sobre <p>Fiz esse site para quem quiser me ajudar ou saber mais sobre o bebê, conseguir acompanhar :) <br> Joaquim irá nascer em Novembro ou Dezembro!</big></p></h2>"
