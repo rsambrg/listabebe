@@ -6,6 +6,7 @@ footer {
 h1,ul {
     font-size: larger;
     color: rgb(147, 203, 107);
+    transition: color 0.3s;
 }
 
 #infome{
@@ -20,6 +21,7 @@ h1,ul {
 
 h1:hover {
   color:rgb(198, 120, 237);
+  cursor: default;
 }
 
 .titulo{
@@ -32,6 +34,9 @@ h1:hover {
 h2 {
   color: rgb(93, 132, 216);
 }
+h2:hover{
+  cursor: default;
+}
 ul {
     list-style-type: none;
     padding: 50px;
@@ -43,7 +48,7 @@ ul {
   li, p {
     margin: 10px 0;
     text-decoration: none;
-    color: orange;
+    color: rgb(76, 50, 3);
   }
   
   .completed {
@@ -132,8 +137,45 @@ nav a:hover, span:hover {
   font-size: 20px;
 }
 
+a.linkcompra {
+  color: #8c4a3c;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a.linkcompra:hover {
+  color: rgb(46, 160, 38);
+  font-size: 120%;
+}
 
 
+p.linkcompra {
+    padding: 10px;
+    background-color: rgba(173, 194, 221, 0.473);
+    width: auto;
+    border-radius: 6px;
+    color:rgba(255, 0, 0, 0.436);
+}
 
+p.linkcompra:hover {
+  background-color: rgb(173, 194, 221);
+  color:rgb(255, 0, 0);
+  cursor:default;
+}
 
+div.linkcompra {
+  padding: 5px;
+  background-color: rgb(249, 244, 184);
+  border-radius: 3px;
+  margin-bottom: auto;
+  width: auto;
+  
+}
 
+.comprado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li:hover {
+  cursor: default;
+}
