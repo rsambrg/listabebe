@@ -24,9 +24,5 @@ perguntas.addEventListener("click", function(){
 });
 
 bolao.addEventListener("click",function(){
-    conteudo.innerHTML= "<h2>Palpites:<p> Michel -19/11 <br> Brenda - 20/11 <br> Rafael - 21/11 <br> Raquel - 27/11 <br>Francisco - 13/12 <br>Rebeca - 03/12 <br> Janine - 15/11 <br> Leticya - 13/11</p><p>Mande o seu para: quediavounascer@mail.com </p></h2><big><big>"
+    conteudo.innerHTML= "<h2>Palpites:<p> Michel -19/11 <br> Brenda - 20/11 <br> Rafael - 21/11 <br> Raquel - 27/11 <br>Francisco - 13/12 <br>Rebeca - 03/12 <br> Janine - 15/11 <br> Leticya - 13/11 <br> Daniel - 15/11 </p><p>Mande o seu para: quediavounascer@mail.com </p></h2><big><big>"
 });
-
-recebidos.addEventListener("click",function(){
-    conteudo.innerHTML = "<h1><big><big><big><big><big><big><big><big>Em Breve!</h1>"
-})
