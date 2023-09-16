@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let currentImageIndex = 0;
-    const images = ["./recebidos/01.png", "./recebidos/02.jpg", "./recebidos/05.jpg","./recebidos/loick01.jpg","./recebidos/loick02.jpg","./recebidos/rafael01.jpg","./recebidos/rafael02.jpg"];
+    const images = ["./recebidos/01.png", "./recebidos/02.jpg", "./recebidos/05.jpg","./recebidos/loick01.JPG","./recebidos/loick02.JPG","./recebidos/rafael01.JPG","./recebidos/rafael02.JPG"];
     const descriptions = ["De: Vovó, bisa e Leticya", "De: Vovó, bisa e Leticya", "De: Vovó, bisa e Leticya","De: Loick","De: Loick","De: Rafael","De: Rafael"];
 
     function openLightbox(index) {
